@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "J.D. Shaeffer's Portfolio",
+    author: "J.D. Shaeffer",
+    description: "My portfolio website via a Gatsby.js V2 Starter based on Dimension by HTML5 UP"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/profile.jpg', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',
