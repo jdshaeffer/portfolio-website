@@ -7,7 +7,7 @@ import profile from '../images/profile.jpg'
 import resume from '../images/resume.pdf'
 import axios from 'axios'
 
-const API_PATH = 'http://localhost:8000/portfolio-website/api/contact/index.php';
+const API_PATH = 'contact.test';
 
 class Main extends React.Component {
   constructor(props) {
@@ -21,22 +21,22 @@ class Main extends React.Component {
     }
   }
 
+
   handleFormSubmit = e => {
     e.preventDefault();
-    console.log(this.state);
     axios({
       method: 'post',
       url: `${API_PATH}`,
-      headers: {'content-type': 'application/json'},
+      headers: { 'content-type': 'application/json' },
       data: this.state
     })
-    .then(result => {
-      this.setState({
-        mailSent: result.data.sent
+      .then(result => {
+        this.setState({
+          mailSent: result.data.sent
+        })
       })
-    })
-    .catch(error => this.setState({ error: error.message }));
-  }
+      .catch(error => this.setState({ error: error.message }));
+  };
   
   render() {
 
