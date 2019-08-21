@@ -1,5 +1,1 @@
-Clone and run `gatsby develop` in the terminal to start the dev site.
-
-More detailed README to come later.
-
-Thanks doods.
+a portfolio website driven by Gatsby, design by HTML5 UP
