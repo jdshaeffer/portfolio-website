@@ -14,7 +14,10 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+          <h2 className="major">Projects</h2>
+          
+          <h3>NASA Psyche Meteorite Image Analysis</h3>
+          <p>Senior year capstone project, deveoping on Python image libraries and Machine Learning models to discover mineral composition of meteorites.</p>
 
           <h3>KiP - Gatsby App</h3>
           <span className="image main"><img src={ kipSite } alt="" /></span>
@@ -24,6 +27,9 @@ class Main extends React.Component {
           <h3>KiP - React Native App</h3>
           <span className="image main"><img src={ kipController } alt="" /></span>
           <p>Spearheaded the creation of the mobile app that has become the working controller of the robot's movement and arm gestures. All done in React Native, along with the help of my supervisor, <a href="https://cadams.io/">Chase Adams</a>.</p>
+
+          <h3>TBAGenerator</h3>
+          <p>*In Production* Write your own text adventure without any code.</p>
 
           <h3>Google Cloud Platform Ambassador</h3>
           <span className="image main"><img src={ googleEvent } alt="" /></span>
@@ -47,7 +53,8 @@ class Main extends React.Component {
           <h2 className="major">Contact</h2>
             <p className="major">Thanks for getting in touch. Reach out however you'd like.</p>
             <form action="mailto:shaefferjd@gmail.com">
-            <input className = "special" type="submit" value="Send Email"></input></form>
+              <input className="special" type="submit" value="Send Email"></input>
+            </form>
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/j-d-s-0b5751132/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://github.com/jdshaeffer" className="icon fa-github"><span className="label">GitHub</span></a></li>
