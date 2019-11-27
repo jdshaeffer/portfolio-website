@@ -14,18 +14,30 @@ class Main extends React.Component {
           <h2 className="major">Personal Projects</h2>
           
           <h3><i>non-school/non-work, purely personal projects</i></h3>
-          <p>...</p>
+          <p>-------</p>
 
           <h3>RNG Geographically-Accurate Graphs</h3>
           <p>
-            *In Development* Algorithm experimenting with certain principles of graph theory.
+            -- In Development -- Algorithm experimenting with certain principles of graph theory.
             Builds random paths via <i>n</i> number of rooms and cardinal directions (n/s/e/w/ne/nw/se/sw).
             {/* future github link here with number of stars thing */}
           </p>
 
+          <h3>Dunnet FKT</h3>
+          <p>
+            -- In Development -- Dunnet Fastest Known Time.
+            Python solver for the beloved Emacs text adventure, Dunnet, by Ron Schnell.
+          </p>
+          
+          <h3>Gear Calculator</h3>
+          <p>
+            -- Coming Soon -- Refractor and remaster of old iOS app I made in 2018.
+            App designed for Thru Hikers and avid Backpackers, giving them a vast knowledge of gear in one location.
+          </p>
+
           <h3>TBAGenerator</h3>
           <p>
-            *In Ideation* Build your own text adventure without any code.
+            -- In Ideation -- Build your own text adventure without any code.
           </p>
 
           {close}
