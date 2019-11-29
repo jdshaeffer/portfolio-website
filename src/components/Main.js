@@ -23,10 +23,10 @@ class Main extends React.Component {
             {/* future github link here with number of stars thing */}
           </p>
 
-          <h3>Dunnet FKT</h3>
+          <h3>Dunnet Solver</h3>
           <p>
-            -- In Development -- Dunnet Fastest Known Time.
-            Python solver for the beloved Emacs text adventure, Dunnet, by Ron Schnell.
+            -- In Development -- Dunnet Solver, completing Dunnet in style.
+            Python script for the beloved Emacs text adventure, Dunnet, by Ron Schnell.
           </p>
           
           <h3>Gear Calculator</h3>
