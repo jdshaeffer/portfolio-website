@@ -23,10 +23,10 @@ class Main extends React.Component {
             {/* future github link here with number of stars thing */}
           </p>
 
-          <h3>Dunnet Solver</h3>
+          <h3><a href="https://github.com/jdshaeffer/dunnet-solver">Dunnet Solver</a></h3>
           <p>
-            -- In Development -- Dunnet Solver, completing Dunnet in style.
             Python script for the beloved Emacs text adventure, Dunnet, by Ron Schnell.
+            Solves Dunnet in style.
           </p>
           
           <h3>Gear Calculator</h3>
@@ -56,13 +56,12 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-            <p className="major">Thanks for getting in touch. Reach out however you'd like.</p>
-            <form action="mailto:shaefferjd@gmail.com">
-              <input className="special" type="submit" value="Send Email"></input>
-            </form>
+          <p className="major">Thanks for getting in touch. Reach out however you'd like.</p>
+          <p><b>shaefferjd@gmail.com</b></p>
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/j-d-s-0b5751132/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://github.com/jdshaeffer" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/jdshaef" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
           </ul>
           {close}
         </article>
