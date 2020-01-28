@@ -35,19 +35,13 @@ class Main extends React.Component {
             App designed for Thru Hikers and avid Backpackers, giving them a vast knowledge of gear in one location.
           </p>
 
-          <h3>TBAGenerator</h3>
-          <p>
-            -- In Ideation -- Build your own text adventure without any code.
-          </p>
-
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Resume</h2>
           <span className="image main"><img src={profile} alt="" /></span>
-          <p>I'm finishing up my BS in Computer Science at Arizona State University. Once I get HW out of the way, I love to dive into my full stack projects, either my tasks at The Luminosity Lab, or my personal projects. My Resume explains it pretty well.</p>
-          <p>If I'm not doing any of that I might be in the gym pumping wicked heavy iron, eating bricks, or hammering nails lololol</p>
+          <p>I'm a full-stack developer and stuff. My Resume explains it pretty well.</p>
           <ul>
             <li><a href={resume}>Resume</a></li>
           </ul>
@@ -61,7 +55,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li><a href="https://www.linkedin.com/in/j-d-s-0b5751132/" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://github.com/jdshaeffer" className="icon fa-github"><span className="label">GitHub</span></a></li>
-            <li><a href="https://twitter.com/jdshaef" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a href="https://twitter.com/jdshaeff" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
           </ul>
           {close}
         </article>
