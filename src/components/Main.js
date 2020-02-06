@@ -13,16 +13,6 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Personal Projects</h2>
           
-          <h3><i>non-school/non-work, purely personal projects</i></h3>
-          <p>-------</p>
-
-          <h3>RNG Geographically-Accurate Graphs</h3>
-          <p>
-            -- In Development -- Algorithm experimenting with certain principles of graph theory.
-            Builds random paths via <i>n</i> number of rooms and cardinal directions (n/s/e/w/ne/nw/se/sw).
-            {/* future github link here with number of stars thing */}
-          </p>
-
           <h3><a href="https://github.com/jdshaeffer/dunnet-solver">Dunnet Solver</a></h3>
           <p>
             Python script for the beloved Emacs text adventure, Dunnet, by Ron Schnell.
@@ -31,8 +21,15 @@ class Main extends React.Component {
           
           <h3>Gear Calculator</h3>
           <p>
-            -- Coming Soon -- Refractor and remaster of old iOS app I made in 2018.
-            App designed for Thru Hikers and avid Backpackers, giving them a vast knowledge of gear in one location.
+            -- In Development -- 
+            Better, more efficient gear research for improved trips in the backcountry - the one-stop-shop for gear research
+          </p>
+
+          <h3>RNG Geographically-Accurate Graphs</h3>
+          <p>
+            -- In Development -- Algorithm experimenting with certain principles of graph theory.
+            Builds random paths via <i>n</i> number of rooms and cardinal directions (n/s/e/w/ne/nw/se/sw).
+            {/* future github link here with number of stars thing */}
           </p>
 
           {close}
